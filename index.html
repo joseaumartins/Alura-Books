@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alura Books</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#books">Livros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="home">
+        <section class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao Alura Books</h2>
+                <p>Seu destino para os melhores livros de programação e tecnologia.</p>
+            </div>
+        </section>
+        <section id="books">
+            <div class="container">
+                <h2>Livros em Destaque</h2>
+                <div class="book-list">
+                    <div class="book-item">
+                        <img src="book1.jpg" alt="Livro 1">
+                        <h3>Aprendendo HTML e CSS</h3>
+                        <p>Uma introdução completa ao HTML e CSS.</p>
+                    </div>
+                    <div class="book-item">
+                        <img src="book2.jpg" alt="Livro 2">
+                        <h3>JavaScript para Iniciantes</h3>
+                        <p>Aprenda JavaScript de forma prática e divertida.</p>
+                    </div>
+                    <!-- Adicione mais livros conforme necessário -->
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alura Books. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
